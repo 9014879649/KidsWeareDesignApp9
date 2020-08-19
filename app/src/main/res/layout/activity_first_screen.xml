@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/launch_screen"
+    android:layout_height="match_parent"
+   >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/start_bt"
+            android:layout_width="130dp"
+            android:text="Start"
+            android:background="@drawable/button_selector"
+            android:layout_marginBottom="15dp"
+            android:padding="15dp"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            android:id="@+id/moreApps_bt"
+            android:layout_width="130dp"
+            android:text="More Apps"
+            android:padding="15dp"
+            android:background="@drawable/button_selector"
+            android:textColor="@android:color/white"
+            android:layout_below="@+id/start_bt"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            android:id="@+id/rateApp_bt"
+            android:layout_width="130dp"
+            android:text="Rate  App"
+            android:layout_marginLeft="15dp"
+            android:padding="15dp"
+            android:background="@drawable/button_selector"
+            android:textColor="@android:color/white"
+            android:layout_toRightOf="@+id/start_bt"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/shareApp_bt"
+            android:layout_width="130dp"
+            android:text="Share App"
+            android:layout_marginLeft="15dp"
+            android:padding="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/moreApps_bt"
+            android:background="@drawable/button_selector"
+            android:textColor="@android:color/white"
+            android:layout_below="@+id/rateApp_bt"
+            android:layout_height="wrap_content" />
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
