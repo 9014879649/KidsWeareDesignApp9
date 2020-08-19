@@ -17,7 +17,7 @@
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-8380297388431621~3565939254999972485"/>
+            android:value="ca-app-pub-8~3565939254999972485"/>
 
         <activity android:name="com.trendyboys.kidsdresses.FirstScreenActivity"
             android:configChanges="orientation"
